@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="nav">
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">products</a></li>
+            <li><a href="./cart.html">cart</a></li>
+            <li id="Username">name</li>
+            <li onclick="logout()" id="logout"><a href="#Home.html">Logout</a></li>
+        </ul>
+    </div>
+    <div id="content">
+    <div class="images" id="men">
+        <button onclick="men()" id="btn1" class="buttons">Shop Now</button>
+    </div>
+    <div class="images" id="jewelery">
+        <button onclick="jewelery()" id="btn2" class="buttons">Shop Now</button>
+    </div>
+    <div  class="images" id="women">
+        <button onclick="women()" id="btn3" class="buttons">Shop Now</button>
+    </div>
+    </div>
+    <div id="product">
+    </div>
+    <script src="./products.js"></script>
+
+    
+</body>
+</html>

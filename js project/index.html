@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="nav">
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./product.html">products</a></li>
+            <li><a href="./cart.html">cart</a></li>
+            <li id="Username">name</li>
+            <li onclick="logout()" id="logout"><a href="#Home.html">Logout</a></li>
+        </ul>
+    </div>
+    <div id="slider">
+        <a class="prev" onclick="back()"> &#10094; </a>
+        <img src="./images/5.jpg" alt="image" >
+        <a class="next" onclick="forward()"> &#10095; </a>
+    </div>
+    <div id="products"></div>
+     <div id="foot">
+        <h1></h1>
+        <ul class="footer">
+            <li><a href="#Home.html">Home</a></li>
+            <li><a href="#products.html">products</a></li>
+            <li><a href="#about.html">about</a></li>
+            <li>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </li>
+        </ul>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>

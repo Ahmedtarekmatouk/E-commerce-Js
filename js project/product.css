@@ -1,0 +1,45 @@
+#content{
+    height: 600px;
+}
+.images{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 25px;
+    height: 600px;
+
+}
+#men{
+    width: 460px;
+    background-image: url("./images/men.jpg");
+    
+}
+#jewelery {
+    width: 400px;
+    background-image: url("./images/ring.jpg");
+
+
+}
+#women{
+    width: 400px;
+    background-image: url("./images/women.jpg");
+
+}
+.buttons{
+background-color:  #5c2ede;
+width: 200px;
+height: 40px;
+border: #5c2ede;
+border-radius: 30px;
+}
+#btn1{
+    margin-top: 350px;
+    margin-left: 130px;
+}
+#btn2{
+    margin-top: 350px;
+    margin-left: 110px;
+}#btn3{
+    margin-top: 350px;
+    margin-left: 120px;
+}

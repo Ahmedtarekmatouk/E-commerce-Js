@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="nav">
+        <ul class="navbar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="product.html">products</a></li>
+            <li><a href="./cart.html">cart</a></li>
+            <li id="Username">name</li>
+            <li onclick="logout()" id="logout"><a href="#Home.html">Logout</a></li>
+        </ul>
+    </div>  
+    <h1 id="ShoppingCart">Shopping Cart : </h1>
+    <div id="data"></div>
+    <div>Total : <span id="total"></span></div>
+    <div><button onclick="checkout()" id="checkout">Check Out</button></div>
+    <script src="./cart.js"></script>
+
+</body>
+</html>

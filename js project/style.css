@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.product {
+    border: 2px solid #5c2ede;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    display: inline-block;
+
+}
+.product img {
+    width: 50px;
+    height: auto;
+}
+.product_cart img{
+    width: 50px;
+    height: auto;
+}
+.product_cart{
+    border: 2px solid #5c2ede;
+    padding: 15px;
+    margin: 20px;
+
+}
+.card{
+    width: 100%;
+}
+.navbar{
+    list-style-type: none;
+    background-color: #5c2ede;
+    height: 60px;
+    text-align: center;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display:inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+#logout{
+    background-color: #5c2ede;
+    margin-left: 500px;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 30px;
+    border: white solid 1px;
+}
+#logout:hover{
+    background-color: black;
+    color: black;
+
+}
+#slider{
+    text-align: center;
+    height: 700px;
+}
+#slider img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+}
+/* Next & previous buttons */
+.prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 250px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:20px;
+  }
+  .next{
+       right: 20px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+#foot{
+    height: 250px;
+    background-color: #5c2ede;
+}
+.footer{
+    list-style-type: none;
+}
+
+.footer li{
+    margin-bottom: 20px;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+
+}
+h1{
+    margin: 25px;
+    padding-top: 25px;
+    color: white;
+}
+.hide{
+    display: none;
+}
+#checkout{
+    width: 80%;
+    background-color: #5c2ede;
+    color: white;
+    border-color:#5c2ede ;
+    border-radius:20px ;
+    margin-left: 140px;
+    height: 30px;
+    margin-top: 100px;
+}
+#ShoppingCart{
+    color: #5c2ede;
+
+}
+
